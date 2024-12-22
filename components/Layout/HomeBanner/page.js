@@ -93,6 +93,18 @@ export default function page() {
             Your browser does not support the video tag.
           </video>
         </div>
+                
+ <div class="w-full md:w-96 h-[90%] flex items-center justify-center">
+          <video class="w-full md:w-[450px]" controls>
+            <source
+              src="https://res.cloudinary.com/du68kdw3m/video/upload/v1734864239/rehmtt_pz47pj.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+                
         <div class="w-full md:w-96 h-[90%] flex items-center justify-center">
           <video class="w-full md:w-[450px]" controls>
             <source
