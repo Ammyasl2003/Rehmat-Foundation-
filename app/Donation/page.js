@@ -1,64 +1,34 @@
 import Image from "next/legacy/image";
 import style from "./style.module.css";
-import { FaRupeeSign } from "react-icons/fa";
-
-export default function page() {
+export default function Page() {
   return (
-    <div className={style.donation}>
-      <div className={style.formSection}>
-        <h2>Payment Details</h2>
-        <div className={style.formLinks}>
-          <li>
-            <div className={style.title}>Amount</div>
-            <div className={style.input}>
-              <span>
-                <FaRupeeSign />
-              </span>
-              <input type="number" name="amount" />
-            </div>
-          </li>
+    <div className={style.donate}>
+      <h1>Donate With Us</h1>
 
-          <li>
-            <div className={style.title}>Name</div>
-            <div className={style.input}>
-              
-              <input type="text" name="name" />
-            </div>
-          </li>
-
-          <li>
-            <div className={style.title}>Phone</div>
-            <div className={style.input}>
-              
-              <input type="Number" name="phone" />
-            </div>
-          </li>
-
-          
-          <li>
-            <div className={style.title}>Email</div>
-            <div className={style.input}>
-              
-              <input type="email" name="email" />
-            </div>
-          </li>
-
-          <li>
-            <div className={style.title}>Address</div>
-            <div className={style.input}>
-              
-              <input type="text" name="address" />
-            </div>
-          </li>
-       
+      <h2>Donate  Online</h2>
+      <p>
+        Please send an email to{" "}
+        <a href="mailto:rehmatfoundationofficial@gmail.com">
+          rehmatfoundationofficial@gmail.com
+        </a>{" "}
+        once you have made a donation, so we can confirm receipt.
+        <br /> Attach screenshot of payment with email
+      </p>
+      <div className={style.qrcodescan}>
+        <div className={style.qrcode}>
+          <Image src={"/qr.jpg"} alt="qr code " layout="fill" priority />
         </div>
-
-        <div className={style.bottomBtn}>
-<div className={style.left}></div>
-<div className={style.right}>Pay ₹ 5000</div>
-        </div>
-        <p>You will get receipt of this payment on your Email.</p>
       </div>
+
+<h2>Pay with Bank Account Details</h2>
+<div className={style.paywithbank}>
+
+
+<h6><span>Bank:</span>ICICI BANK</h6>
+<h6><span>Account Number:</span>001301533100</h6>
+<h6><span>IFSC Code:</span>ICIC0000013</h6>
+
+<h6><span>Branch:</span>Sector 9-C Chandigarh (160017) </h6></div>
     </div>
   );
 }

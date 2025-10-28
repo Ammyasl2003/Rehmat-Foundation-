@@ -25,7 +25,7 @@ Rehmat Foundation
 <div className={style.contact}>
 <li><span><SlLocationPin /></span> Chandigarh</li>
 <li><span><FaPhone /></span>+91 9888987216, 9915501161, 9915108868</li>
-<li><span><IoMdMail /></span>rehmatfoundation43@gmail.com</li>
+<li><span><IoMdMail /></span>rehmatfoundationofficial@gmail.com</li>
 
 
 </div>
@@ -39,6 +39,8 @@ Rehmat Foundation
 <li><span><FaAngleDoubleRight /></span><Link href="/Gallery">Gallery</Link></li>
 <li><span><FaAngleDoubleRight /></span><Link href="/Events">Events</Link></li>
 <li><span><FaAngleDoubleRight /></span><Link href="/Contact">Contact</Link></li>
+<li><span><FaAngleDoubleRight /></span><Link href="/Developer">Developer</Link></li>
+  <li><span><FaAngleDoubleRight /></span><Link href="https://ammyasl2003.github.io/AMMYCODING/rehmat.html">GALLERY</Link></li>
 
 
 </div>
@@ -47,7 +49,7 @@ Rehmat Foundation
 {/* recent events */}
 <div className={style.aboutUs}>
 <h3>ABOUT US</h3>
-<p>Rehmat Foundation is a foundation or NGO in Chandigarh which helps needy people by giving them food-langar and shelter. The foudation provide equality in every religion. </p>
+<p>Rehmat Foundation is a foundation or NGO in Chandigarh which helps needy people by giving them food-langar. The foundation provide equality in every religion.We have to engage the youth with ourselves </p>
 </div>
     </div>
      <div className={style.bottom}>

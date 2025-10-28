@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
 
 .AboutHome{
-margin-top: 12%;
     width: 100%;
     height: auto;
 }
@@ -40,4 +39,21 @@ margin-left: 5%;
     padding-top: 9%;
     color: rgb(109, 109, 109);
     font-size: 1.4vw !important;
+}
+
+
+
+
+
+@media only screen and (min-width: 0px)and (max-width:800px)   {
+       
+
+    .AboutHome{
+        margin-top: 4%;
+           
+        }
+        
+ 
+        
+
 }
