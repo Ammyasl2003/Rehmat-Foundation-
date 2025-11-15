@@ -19,15 +19,15 @@ export default function page() {
         <div className={style.upcomingEvent}>
           <div className={style.date}>
             <div>
-              <h2>25 DEC</h2>
-              <h2> 2024</h2>
+              <h2>14 DEC</h2>
+              <h2> 2025</h2>
             </div>
           </div>
 
           <div className={style.eventDetails}>
             <h1>
               <Link href="/UpcomingEvent">
-                Upcoming Event : 3rd SHAHEEDI JODMEL OF CHAAR SAHIBZADE
+                Upcoming Event : 4th SHAHEEDI JODMEL OF CHAAR SAHIBZADE
               </Link>{" "}
             </h1>
             <h2>
@@ -43,11 +43,11 @@ export default function page() {
                 {" "}
                 <VscLocation />
               </span>{" "}
-              Gurudwara Sahib Bagh Saheeda Sector 44 Chandigarh
+              Gurudwara Shri Guru Teg Bahadur Sahib Sector 34 Chandigarh
             </h2>
           </div>
 
-          <CountDownTimer date={"25.12.2024"} time={"10.00"} />
+          <CountDownTimer date={"14.12.2025"} time={"10.00"} />
         </div>
       </div>
 
